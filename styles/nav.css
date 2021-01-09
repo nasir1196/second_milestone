@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50px;
+    background-color: lightgray;
+    line-height: 30px;
+}
+header li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+li a:hover{
+    color: #ffffff;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
