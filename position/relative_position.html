@@ -5,13 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            position: relative;
+            margin: 5px;
+            height: 170px;
+            width: 300px;
+            border: 7px solid goldenrod;
+            border-radius: 10px;
+            /* overflow: scroll; */
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            top: 0;
+            height: 200px;
+            width: 300px;
+        }
+        .photo-frame:hover{
+            height: 237px;
+        }
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: #c59620bb;
+            height: 244px;
+        }
+        .photo-frame:hover .photo-detail h1{
+            text-align: center;
+            background-color: black;
+            color: #ffffff;
+        }
+        .photo-frame:hover .photo-detail p{
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <div class="photo-album">
         <div class="photo-frame">
             <div class="photo">
-                <img src="img/tiger.jpg" alt="Tiger Image">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
+            </div>
+            <div class="photo-detail">
+                <h1>Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, at quidem? Consectetur maxime amet cupiditate saepe laudantium mollitia accusamus, tempore quisquam officiis nesciunt dolorem illo quos est voluptas minima magni necessitatibus? Voluptate est perspiciatis soluta reprehenderit dolorum harum libero excepturi natus fuga.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="img/tiger1.jpg" alt="Tiger Image">
             </div>
             <div class="photo-detail">
                 <h1>Tiger</h1>
