@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            display: flex;
+            position: relative; /* when use position relative the main container and all box are measuring margin padding from main container height and width*/
+        }
+        .box{
+            border: 1px solid black;
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: lightskyblue;
+        }
+        .box-3{
+            position: absolute; /*when use absolute the box-3, and this box are remove his position and go to box-1 position . If the container position are relative then box-3 position absolute are working the right process and measuring from the container*/
+            /* position: relative; */
+            /* top: 0px; */
+            right: 0px;
+            z-index: 2;
+        }
+        .box-1{
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Position</h1>
+    <h3>More position</h3>
+    <div class="container">
+        <div class="box box-1">
+            <p>box-1</p>
+        </div>
+        <div class="box box-2">
+            <p>box-2</p>
+        </div>
+        <div class="box box-3">
+            <p>box-3</p>
+        </div>
+        <div class="box box-4">
+            <p>box-4</p>
+        </div>
+    </div>
+</body>
+
+</html>
