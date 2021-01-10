@@ -1,0 +1,40 @@
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-frame{
+    position: relative;
+    margin: 5px;
+    height: 170px;
+    width: 300px;
+    border: 7px solid goldenrod;
+    border-radius: 10px;
+    /* overflow: scroll; */
+}
+.photo-frame .photo img{
+    width: 100%;
+}
+.photo-detail{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 300px;
+}
+.photo-frame:hover{
+    height: 237px;
+}
+.photo-frame:hover .photo-detail {
+    display: block;
+    background-color: #c59620bb;
+    height: 244px;
+}
+.photo-frame:hover .photo-detail h1{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+}
+.photo-frame:hover .photo-detail p{
+    color: white;
+    text-align: center;
+}
