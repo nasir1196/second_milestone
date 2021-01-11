@@ -9,10 +9,16 @@
     width: 300px;
     border: 7px solid goldenrod;
     border-radius: 10px;
+    overflow: hidden;
     /* overflow: scroll; */
 }
 .photo-frame .photo img{
     width: 100%;
+}
+.photo-frame:hover .photo img{
+    transform:scale(1.5);
+    /* transform: skew(-30deg); */
+    transition: transform 2s ease-in-out;
 }
 .photo-detail{
     display: none;
