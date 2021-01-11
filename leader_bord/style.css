@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    height: 94px;
+    background-color: blue;
+}
+header img{
+    width: 50px;
+}
+b
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    justify-content: end;
+    color: white;
+}
